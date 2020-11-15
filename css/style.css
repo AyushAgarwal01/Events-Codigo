@@ -77,7 +77,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 header #event {
@@ -95,11 +95,17 @@ header #event i {
 
 @media only screen and (min-width: 1170px) {
   header {
-    height: 300px;
-    line-height: 10px;
+    height: 250px;
+    line-height: 25px;
   }
   header h1 {
-    padding-top: 50px;
+    padding-top: 30px;
+  }
+  header h2 {
+    font-size: 2.2rem;
+  }
+  header #event {
+    padding-right: 15px;
   }
 }
 
